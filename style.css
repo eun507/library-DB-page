@@ -162,27 +162,30 @@ input#searchInput {
 
 @media (max-width: 768px) {
     .viz-box.sankey-box {
-        /* 부모 박스는 화면 너비를 넘지 않도록 설정 */
+        /* 가로 스크롤을 허용해서 좁은 화면에서도 넓게 볼 수 있게 함 */
         width: 100%;
-        overflow: hidden; 
-        position: relative;
+        overflow-x: auto; 
+        -webkit-overflow-scrolling: touch; /* 부드러운 스크롤 */
+        padding-bottom: 10px;
     }
 
     .viz-box.sankey-box iframe {
-        /* 1. 가상으로 화면의 1.8배(180%) 넓이로 렌더링합니다. 
-           (그래야 그래프가 젓가락처럼 안 되고 넓적해짐) */
-        width: 180%;       
+        /* 1. 너비를 더 넓게 잡아서(230%) 그래프 비율을 더 예쁘게(넓적하게) 만듭니다 */
+        width: 230%;       
         
-        /* 2. 높이도 넉넉하게 잡습니다 (그래프가 길면 이 숫자를 늘리세요) */
-        height: 700px;     
+        /* 2. 높이를 900px까지 늘려서 아래가 잘리는 문제를 해결합니다 */
+        height: 900px;     
         
-        /* 3. 전체를 약 55% 크기로 축소해서 화면에 딱 맞춥니다 (100 / 180 ≈ 0.55) */
-        transform: scale(0.55); 
-        transform-origin: top left; /* 왼쪽 위를 기준으로 축소 */
+        /* 3. 배율을 0.55 -> 0.65로 키워서 글씨가 더 잘 보이게 합니다 */
+        transform: scale(0.65); 
+        transform-origin: top left;
         
-        /* 4. 축소되면서 생기는 오른쪽/아래쪽 빈 공간 제거 */
-        margin-bottom: -400px; /* height가 줄어든 만큼 아래쪽 여백 당기기 */
+        /* 4. 확대/축소로 인해 생기는 아래쪽 여백을 적절히 당겨줍니다 */
+        /* 높이나 스케일을 바꾸면 이 값도 조절해야 공백이 안 생깁니다 */
+        margin-bottom: -300px; 
+        
         border: none;
+        display: block; /* 하단 미세 공백 제거 */
     }
 }
 
