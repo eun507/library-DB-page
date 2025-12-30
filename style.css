@@ -158,6 +158,39 @@ input#searchInput {
 }
 
 
+/* style.css 맨 아래에 추가/수정 */
+
+@media (max-width: 768px) {
+    /* 1. Sankey 박스를 '가로 스크롤'이 가능한 영역으로 만듭니다 */
+    .viz-box.sankey-box {
+        overflow-x: auto;          /* 내용이 넘치면 스크롤바 생성 */
+        -webkit-overflow-scrolling: touch; /* 아이폰에서 부드럽게 스크롤 */
+        padding-bottom: 10px;      /* 스크롤바 공간 확보 */
+    }
+
+    /* 2. iframe의 최소 너비를 강제합니다 */
+    .viz-box.sankey-box iframe {
+        width: 100%;               /* 기본은 100%지만... */
+        min-width: 600px;          /* ❗핵심: 최소 600px은 유지해라! (찌그러짐 방지) */
+        
+        /* 높이도 모바일에 맞게 살짝 조절 (너무 길면 줄이세요) */
+        height: 450px;             
+    }
+    
+    /* (선택사항) '옆으로 넘겨보세요' 같은 힌트가 필요할 때 */
+    .viz-box.sankey-box::after {
+        content: '← 그래프를 좌우로 스크롤해보세요 →';
+        display: block;
+        text-align: center;
+        font-size: 0.8rem;
+        color: #999;
+        margin-top: 5px;
+    }
+}
+
+
+
+
 /* 4. 더보기 버튼 & 푸터 */
 .load-more-container { text-align: center; margin-bottom: 80px; }
 .btn-secondary {
