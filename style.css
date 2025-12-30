@@ -181,7 +181,7 @@ input#searchInput {
         transform-origin: top left; /* 왼쪽 위를 기준으로 축소 */
         
         /* 4. 축소되면서 생기는 오른쪽/아래쪽 빈 공간 제거 */
-        margin-bottom: -300px; /* height가 줄어든 만큼 아래쪽 여백 당기기 */
+        margin-bottom: -400px; /* height가 줄어든 만큼 아래쪽 여백 당기기 */
         border: none;
     }
 }
