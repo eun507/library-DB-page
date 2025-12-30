@@ -182,7 +182,7 @@ input#searchInput {
         
         /* 4. 확대/축소로 인해 생기는 아래쪽 여백을 적절히 당겨줍니다 */
         /* 높이나 스케일을 바꾸면 이 값도 조절해야 공백이 안 생깁니다 */
-        margin-bottom: -500px; 
+        margin-bottom: -660px; 
         
         border: none;
         display: block; /* 하단 미세 공백 제거 */
