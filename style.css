@@ -161,33 +161,30 @@ input#searchInput {
 /* style.css 맨 아래에 추가/수정 */
 
 @media (max-width: 768px) {
-    /* 1. Sankey 박스를 '가로 스크롤'이 가능한 영역으로 만듭니다 */
     .viz-box.sankey-box {
-        overflow-x: auto;          /* 내용이 넘치면 스크롤바 생성 */
-        -webkit-overflow-scrolling: touch; /* 아이폰에서 부드럽게 스크롤 */
-        padding-bottom: 10px;      /* 스크롤바 공간 확보 */
+        /* 부모 박스는 화면 너비를 넘지 않도록 설정 */
+        width: 100%;
+        overflow: hidden; 
+        position: relative;
     }
 
-    /* 2. iframe의 최소 너비를 강제합니다 */
     .viz-box.sankey-box iframe {
-        width: 100%;               /* 기본은 100%지만... */
-        min-width: 600px;          /* ❗핵심: 최소 600px은 유지해라! (찌그러짐 방지) */
+        /* 1. 가상으로 화면의 1.8배(180%) 넓이로 렌더링합니다. 
+           (그래야 그래프가 젓가락처럼 안 되고 넓적해짐) */
+        width: 180%;       
         
-        /* 높이도 모바일에 맞게 살짝 조절 (너무 길면 줄이세요) */
-        height: 450px;             
-    }
-    
-    /* (선택사항) '옆으로 넘겨보세요' 같은 힌트가 필요할 때 */
-    .viz-box.sankey-box::after {
-        content: '← 그래프를 좌우로 스크롤해보세요 →';
-        display: block;
-        text-align: center;
-        font-size: 0.8rem;
-        color: #999;
-        margin-top: 5px;
+        /* 2. 높이도 넉넉하게 잡습니다 (그래프가 길면 이 숫자를 늘리세요) */
+        height: 700px;     
+        
+        /* 3. 전체를 약 55% 크기로 축소해서 화면에 딱 맞춥니다 (100 / 180 ≈ 0.55) */
+        transform: scale(0.55); 
+        transform-origin: top left; /* 왼쪽 위를 기준으로 축소 */
+        
+        /* 4. 축소되면서 생기는 오른쪽/아래쪽 빈 공간 제거 */
+        margin-bottom: -300px; /* height가 줄어든 만큼 아래쪽 여백 당기기 */
+        border: none;
     }
 }
-
 
 
 
