@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Data Exhibition</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&family=Noto+Serif+KR:wght@300;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <p class="subtitle">2025 INU DaL Exhibition</p>
+            <h1 class="title">인천대학교 학과별 DB추천</h1>
+            <p class="description">
+                인천대학교의 학과별 강의커리큘럼 데이터와 <br>
+                학산도서관이 구독하는 데이터베이스 키워드를 연결하여<br>
+                새로운 학문적 통찰을 발견하는 전시입니다.
+            </p>
+            <button onclick="scrollToSearch()" class="btn-main">EXPLORE NOW</button>
+        </div>
+    </header>
+
+    <section id="search-section" class="search-container">
+        <div class="search-box">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="searchInput" placeholder="학과명을 검색해보세요 (예: 문헌정보학과)">
+        </div>
+    </section>
+
+    <main id="gallery" class="gallery-container">
+        </main>
+
+    <div class="load-more-container">
+        <button id="loadMoreBtn" class="btn-secondary">전체 학과 보기 (View All)</button>
+    </div>
+
+    <footer>
+        <p>© 2025 Data Exhibition Project. All rights reserved.</p>
+    </footer>
+
+
+
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="expandedImg">
+        <div id="caption"></div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>

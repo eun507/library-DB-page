@@ -1,0 +1,682 @@
+[
+  {
+    "id": 0,
+    "name": "국어국문학과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/국어국문학과.html",
+    "wordcloudPng": "wordcloud_files/국어국문학과_wordcloud.png",
+    "semanticNetworkPng": "network_files/국어국문학과_네트워크.png"
+  },
+  {
+    "id": 1,
+    "name": "영어영문학과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/영어영문학과.html",
+    "wordcloudPng": "wordcloud_files/영어영문학과_wordcloud.png",
+    "semanticNetworkPng": "network_files/영어영문학과_네트워크.png"
+  },
+  {
+    "id": 2,
+    "name": "독어독문학과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/독어독문학과.html",
+    "wordcloudPng": "wordcloud_files/독어독문학과_wordcloud.png",
+    "semanticNetworkPng": "network_files/독어독문학과_네트워크.png"
+  },
+  {
+    "id": 3,
+    "name": "불어불문학과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/불어불문학과.html",
+    "wordcloudPng": "wordcloud_files/불어불문학과_wordcloud.png",
+    "semanticNetworkPng": "network_files/불어불문학과_네트워크.png"
+  },
+  {
+    "id": 4,
+    "name": "일본지역문화학과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/일본지역문화학과.html",
+    "wordcloudPng": "wordcloud_files/일본지역문화학과_wordcloud.png",
+    "semanticNetworkPng": "network_files/일본지역문화학과_네트워크.png"
+  },
+  {
+    "id": 5,
+    "name": "중어중국학과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/중어중국학과.html",
+    "wordcloudPng": "wordcloud_files/중어중국학과_wordcloud.png",
+    "semanticNetworkPng": "network_files/중어중국학과_네트워크.png"
+  },
+  {
+    "id": 6,
+    "name": "수학과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/수학과.html",
+    "wordcloudPng": "wordcloud_files/수학과_wordcloud.png",
+    "semanticNetworkPng": "network_files/수학과_네트워크.png"
+  },
+  {
+    "id": 7,
+    "name": "물리학과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/물리학과.html",
+    "wordcloudPng": "wordcloud_files/물리학과_wordcloud.png",
+    "semanticNetworkPng": "network_files/물리학과_네트워크.png"
+  },
+  {
+    "id": 8,
+    "name": "화학과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/화학과.html",
+    "wordcloudPng": "wordcloud_files/화학과_wordcloud.png",
+    "semanticNetworkPng": "network_files/화학과_네트워크.png"
+  },
+  {
+    "id": 9,
+    "name": "패션산업학과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/패션산업학과.html",
+    "wordcloudPng": "wordcloud_files/패션산업학과_wordcloud.png",
+    "semanticNetworkPng": "network_files/패션산업학과_네트워크.png"
+  },
+  {
+    "id": 10,
+    "name": "해양학과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/해양학과.html",
+    "wordcloudPng": "wordcloud_files/해양학과_wordcloud.png",
+    "semanticNetworkPng": "network_files/해양학과_네트워크.png"
+  },
+  {
+    "id": 11,
+    "name": "사회복지학과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/사회복지학과.html",
+    "wordcloudPng": "wordcloud_files/사회복지학과_wordcloud.png",
+    "semanticNetworkPng": "network_files/사회복지학과_네트워크.png"
+  },
+  {
+    "id": 12,
+    "name": "미디어커뮤니케이션학과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/미디어커뮤니케이션학과.html",
+    "wordcloudPng": "wordcloud_files/미디어커뮤니케이션학과_wordcloud.png",
+    "semanticNetworkPng": "network_files/미디어커뮤니케이션학과_네트워크.png"
+  },
+  {
+    "id": 13,
+    "name": "문헌정보학과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/문헌정보학과.html",
+    "wordcloudPng": "wordcloud_files/문헌정보학과_wordcloud.png",
+    "semanticNetworkPng": "network_files/문헌정보학과_네트워크.png"
+  },
+  {
+    "id": 14,
+    "name": "창의인재개발학과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/창의인재개발학과.html",
+    "wordcloudPng": "wordcloud_files/창의인재개발학과_wordcloud.png",
+    "semanticNetworkPng": "network_files/창의인재개발학과_네트워크.png"
+  },
+  {
+    "id": 15,
+    "name": "행정학과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/행정학과.html",
+    "wordcloudPng": "wordcloud_files/행정학과_wordcloud.png",
+    "semanticNetworkPng": "network_files/행정학과_네트워크.png"
+  },
+  {
+    "id": 16,
+    "name": "정치외교학과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/정치외교학과.html",
+    "wordcloudPng": "wordcloud_files/정치외교학과_wordcloud.png",
+    "semanticNetworkPng": "network_files/정치외교학과_네트워크.png"
+  },
+  {
+    "id": 17,
+    "name": "경제학과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/경제학과.html",
+    "wordcloudPng": "wordcloud_files/경제학과_wordcloud.png",
+    "semanticNetworkPng": "network_files/경제학과_네트워크.png"
+  },
+  {
+    "id": 18,
+    "name": "경제학과(야)",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/경제학과(야).html",
+    "wordcloudPng": "wordcloud_files/경제학과(야)_wordcloud.png",
+    "semanticNetworkPng": "network_files/경제학과(야)_네트워크.png"
+  },
+  {
+    "id": 19,
+    "name": "무역학부",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/무역학부.html",
+    "wordcloudPng": "wordcloud_files/무역학부_wordcloud.png",
+    "semanticNetworkPng": "network_files/무역학부_네트워크.png"
+  },
+  {
+    "id": 20,
+    "name": "무역학부(야)",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/무역학부(야).html",
+    "wordcloudPng": "wordcloud_files/무역학부(야)_wordcloud.png",
+    "semanticNetworkPng": "network_files/무역학부(야)_네트워크.png"
+  },
+  {
+    "id": 21,
+    "name": "소비자학과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/소비자학과.html",
+    "wordcloudPng": "wordcloud_files/소비자학과_wordcloud.png",
+    "semanticNetworkPng": "network_files/소비자학과_네트워크.png"
+  },
+  {
+    "id": 22,
+    "name": "기계공학과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/기계공학과.html",
+    "wordcloudPng": "wordcloud_files/기계공학과_wordcloud.png",
+    "semanticNetworkPng": "network_files/기계공학과_네트워크.png"
+  },
+  {
+    "id": 23,
+    "name": "기계공학과(야)",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/기계공학과(야).html",
+    "wordcloudPng": "wordcloud_files/기계공학과(야)_wordcloud.png",
+    "semanticNetworkPng": "network_files/기계공학과(야)_네트워크.png"
+  },
+  {
+    "id": 24,
+    "name": "전기공학과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/전기공학과.html",
+    "wordcloudPng": "wordcloud_files/전기공학과_wordcloud.png",
+    "semanticNetworkPng": "network_files/전기공학과_네트워크.png"
+  },
+  {
+    "id": 25,
+    "name": "전자공학과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/전자공학과.html",
+    "wordcloudPng": "wordcloud_files/전자공학과_wordcloud.png",
+    "semanticNetworkPng": "network_files/전자공학과_네트워크.png"
+  },
+  {
+    "id": 26,
+    "name": "전자공학부",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/전자공학부.html",
+    "wordcloudPng": "wordcloud_files/전자공학부_wordcloud.png",
+    "semanticNetworkPng": "network_files/전자공학부_네트워크.png"
+  },
+  {
+    "id": 27,
+    "name": "전자공학전공",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/전자공학전공.html",
+    "wordcloudPng": "wordcloud_files/전자공학전공_wordcloud.png",
+    "semanticNetworkPng": "network_files/전자공학전공_네트워크.png"
+  },
+  {
+    "id": 28,
+    "name": "산업경영공학과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/산업경영공학과.html",
+    "wordcloudPng": "wordcloud_files/산업경영공학과_wordcloud.png",
+    "semanticNetworkPng": "network_files/산업경영공학과_네트워크.png"
+  },
+  {
+    "id": 29,
+    "name": "신소재공학과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/신소재공학과.html",
+    "wordcloudPng": "wordcloud_files/신소재공학과_wordcloud.png",
+    "semanticNetworkPng": "network_files/신소재공학과_네트워크.png"
+  },
+  {
+    "id": 30,
+    "name": "안전공학과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/안전공학과.html",
+    "wordcloudPng": "wordcloud_files/안전공학과_wordcloud.png",
+    "semanticNetworkPng": "network_files/안전공학과_네트워크.png"
+  },
+  {
+    "id": 31,
+    "name": "에너지화학공학과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/에너지화학공학과.html",
+    "wordcloudPng": "wordcloud_files/에너지화학공학과_wordcloud.png",
+    "semanticNetworkPng": "network_files/에너지화학공학과_네트워크.png"
+  },
+  {
+    "id": 32,
+    "name": "바이오-로봇시스템공학과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/바이오-로봇시스템공학과.html",
+    "wordcloudPng": "wordcloud_files/바이오-로봇시스템공학과_wordcloud.png",
+    "semanticNetworkPng": "network_files/바이오-로봇시스템공학과_네트워크.png"
+  },
+  {
+    "id": 33,
+    "name": "컴퓨터공학부",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/컴퓨터공학부.html",
+    "wordcloudPng": "wordcloud_files/컴퓨터공학부_wordcloud.png",
+    "semanticNetworkPng": "network_files/컴퓨터공학부_네트워크.png"
+  },
+  {
+    "id": 34,
+    "name": "정보통신공학과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/정보통신공학과.html",
+    "wordcloudPng": "wordcloud_files/정보통신공학과_wordcloud.png",
+    "semanticNetworkPng": "network_files/정보통신공학과_네트워크.png"
+  },
+  {
+    "id": 35,
+    "name": "임베디드시스템공학과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/임베디드시스템공학과.html",
+    "wordcloudPng": "wordcloud_files/임베디드시스템공학과_wordcloud.png",
+    "semanticNetworkPng": "network_files/임베디드시스템공학과_네트워크.png"
+  },
+  {
+    "id": 36,
+    "name": "경영학부",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/경영학부.html",
+    "wordcloudPng": "wordcloud_files/경영학부_wordcloud.png",
+    "semanticNetworkPng": "network_files/경영학부_네트워크.png"
+  },
+  {
+    "id": 37,
+    "name": "데이터과학과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/데이터과학과.html",
+    "wordcloudPng": "wordcloud_files/데이터과학과_wordcloud.png",
+    "semanticNetworkPng": "network_files/데이터과학과_네트워크.png"
+  },
+  {
+    "id": 38,
+    "name": "세무회계학과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/세무회계학과.html",
+    "wordcloudPng": "wordcloud_files/세무회계학과_wordcloud.png",
+    "semanticNetworkPng": "network_files/세무회계학과_네트워크.png"
+  },
+  {
+    "id": 39,
+    "name": "조형예술학부",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/조형예술학부.html",
+    "wordcloudPng": "wordcloud_files/조형예술학부_wordcloud.png",
+    "semanticNetworkPng": "network_files/조형예술학부_네트워크.png"
+  },
+  {
+    "id": 40,
+    "name": "한국화전공",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/한국화전공.html",
+    "wordcloudPng": "wordcloud_files/한국화전공_wordcloud.png",
+    "semanticNetworkPng": "network_files/한국화전공_네트워크.png"
+  },
+  {
+    "id": 41,
+    "name": "서양화전공",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/서양화전공.html",
+    "wordcloudPng": "wordcloud_files/서양화전공_wordcloud.png",
+    "semanticNetworkPng": "network_files/서양화전공_네트워크.png"
+  },
+  {
+    "id": 42,
+    "name": "디자인학부",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/디자인학부.html",
+    "wordcloudPng": "wordcloud_files/디자인학부_wordcloud.png",
+    "semanticNetworkPng": "network_files/디자인학부_네트워크.png"
+  },
+  {
+    "id": 43,
+    "name": "공연예술학과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/공연예술학과.html",
+    "wordcloudPng": "wordcloud_files/공연예술학과_wordcloud.png",
+    "semanticNetworkPng": "network_files/공연예술학과_네트워크.png"
+  },
+  {
+    "id": 44,
+    "name": "스포츠과학부",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/스포츠과학부.html",
+    "wordcloudPng": "wordcloud_files/스포츠과학부_wordcloud.png",
+    "semanticNetworkPng": "network_files/스포츠과학부_네트워크.png"
+  },
+  {
+    "id": 45,
+    "name": "운동건강학부",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/운동건강학부.html",
+    "wordcloudPng": "wordcloud_files/운동건강학부_wordcloud.png",
+    "semanticNetworkPng": "network_files/운동건강학부_네트워크.png"
+  },
+  {
+    "id": 46,
+    "name": "국어교육과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/국어교육과.html",
+    "wordcloudPng": "wordcloud_files/국어교육과_wordcloud.png",
+    "semanticNetworkPng": "network_files/국어교육과_네트워크.png"
+  },
+  {
+    "id": 47,
+    "name": "영어교육과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/영어교육과.html",
+    "wordcloudPng": "wordcloud_files/영어교육과_wordcloud.png",
+    "semanticNetworkPng": "network_files/영어교육과_네트워크.png"
+  },
+  {
+    "id": 48,
+    "name": "일어교육과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/일어교육과.html",
+    "wordcloudPng": "wordcloud_files/일어교육과_wordcloud.png",
+    "semanticNetworkPng": "network_files/일어교육과_네트워크.png"
+  },
+  {
+    "id": 49,
+    "name": "수학교육과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/수학교육과.html",
+    "wordcloudPng": "wordcloud_files/수학교육과_wordcloud.png",
+    "semanticNetworkPng": "network_files/수학교육과_네트워크.png"
+  },
+  {
+    "id": 50,
+    "name": "체육교육과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/체육교육과.html",
+    "wordcloudPng": "wordcloud_files/체육교육과_wordcloud.png",
+    "semanticNetworkPng": "network_files/체육교육과_네트워크.png"
+  },
+  {
+    "id": 51,
+    "name": "유아교육과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/유아교육과.html",
+    "wordcloudPng": "wordcloud_files/유아교육과_wordcloud.png",
+    "semanticNetworkPng": "network_files/유아교육과_네트워크.png"
+  },
+  {
+    "id": 52,
+    "name": "역사교육과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/역사교육과.html",
+    "wordcloudPng": "wordcloud_files/역사교육과_wordcloud.png",
+    "semanticNetworkPng": "network_files/역사교육과_네트워크.png"
+  },
+  {
+    "id": 53,
+    "name": "윤리교육과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/윤리교육과.html",
+    "wordcloudPng": "wordcloud_files/윤리교육과_wordcloud.png",
+    "semanticNetworkPng": "network_files/윤리교육과_네트워크.png"
+  },
+  {
+    "id": 54,
+    "name": "도시행정학과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/도시행정학과.html",
+    "wordcloudPng": "wordcloud_files/도시행정학과_wordcloud.png",
+    "semanticNetworkPng": "network_files/도시행정학과_네트워크.png"
+  },
+  {
+    "id": 55,
+    "name": "도시환경공학부",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/도시환경공학부.html",
+    "wordcloudPng": "wordcloud_files/도시환경공학부_wordcloud.png",
+    "semanticNetworkPng": "network_files/도시환경공학부_네트워크.png"
+  },
+  {
+    "id": 56,
+    "name": "건설환경공학전공",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/건설환경공학전공.html",
+    "wordcloudPng": "wordcloud_files/건설환경공학전공_wordcloud.png",
+    "semanticNetworkPng": "network_files/건설환경공학전공_네트워크.png"
+  },
+  {
+    "id": 57,
+    "name": "환경공학전공",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/환경공학전공.html",
+    "wordcloudPng": "wordcloud_files/환경공학전공_wordcloud.png",
+    "semanticNetworkPng": "network_files/환경공학전공_네트워크.png"
+  },
+  {
+    "id": 58,
+    "name": "도시공학과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/도시공학과.html",
+    "wordcloudPng": "wordcloud_files/도시공학과_wordcloud.png",
+    "semanticNetworkPng": "network_files/도시공학과_네트워크.png"
+  },
+  {
+    "id": 59,
+    "name": "도시건축학부",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/도시건축학부.html",
+    "wordcloudPng": "wordcloud_files/도시건축학부_wordcloud.png",
+    "semanticNetworkPng": "network_files/도시건축학부_네트워크.png"
+  },
+  {
+    "id": 60,
+    "name": "건축공학전공",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/건축공학전공.html",
+    "wordcloudPng": "wordcloud_files/건축공학전공_wordcloud.png",
+    "semanticNetworkPng": "network_files/건축공학전공_네트워크.png"
+  },
+  {
+    "id": 61,
+    "name": "도시건축학전공",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/도시건축학전공.html",
+    "wordcloudPng": "wordcloud_files/도시건축학전공_wordcloud.png",
+    "semanticNetworkPng": "network_files/도시건축학전공_네트워크.png"
+  },
+  {
+    "id": 62,
+    "name": "생명과학부",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/생명과학부.html",
+    "wordcloudPng": "wordcloud_files/생명과학부_wordcloud.png",
+    "semanticNetworkPng": "network_files/생명과학부_네트워크.png"
+  },
+  {
+    "id": 63,
+    "name": "생명과학전공",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/생명과학전공.html",
+    "wordcloudPng": "wordcloud_files/생명과학전공_wordcloud.png",
+    "semanticNetworkPng": "network_files/생명과학전공_네트워크.png"
+  },
+  {
+    "id": 64,
+    "name": "분자의생명전공",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/분자의생명전공.html",
+    "wordcloudPng": "wordcloud_files/분자의생명전공_wordcloud.png",
+    "semanticNetworkPng": "network_files/분자의생명전공_네트워크.png"
+  },
+  {
+    "id": 65,
+    "name": "생명공학부",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/생명공학부.html",
+    "wordcloudPng": "wordcloud_files/생명공학부_wordcloud.png",
+    "semanticNetworkPng": "network_files/생명공학부_네트워크.png"
+  },
+  {
+    "id": 66,
+    "name": "생명공학전공",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/생명공학전공.html",
+    "wordcloudPng": "wordcloud_files/생명공학전공_wordcloud.png",
+    "semanticNetworkPng": "network_files/생명공학전공_네트워크.png"
+  },
+  {
+    "id": 67,
+    "name": "나노바이오공학전공",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/나노바이오공학전공.html",
+    "wordcloudPng": "wordcloud_files/나노바이오공학전공_wordcloud.png",
+    "semanticNetworkPng": "network_files/나노바이오공학전공_네트워크.png"
+  },
+  {
+    "id": 68,
+    "name": "동북아국제통상전공",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/동북아국제통상전공.html",
+    "wordcloudPng": "wordcloud_files/동북아국제통상전공_wordcloud.png",
+    "semanticNetworkPng": "network_files/동북아국제통상전공_네트워크.png"
+  },
+  {
+    "id": 69,
+    "name": "스마트물류공학전공",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/스마트물류공학전공.html",
+    "wordcloudPng": "wordcloud_files/스마트물류공학전공_wordcloud.png",
+    "semanticNetworkPng": "network_files/스마트물류공학전공_네트워크.png"
+  },
+  {
+    "id": 70,
+    "name": "IBE전공",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/IBE전공.html",
+    "wordcloudPng": "wordcloud_files/IBE전공_wordcloud.png",
+    "semanticNetworkPng": "network_files/IBE전공_네트워크.png"
+  },
+  {
+    "id": 71,
+    "name": "자유전공학부",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/자유전공학부.html",
+    "wordcloudPng": "wordcloud_files/자유전공학부_wordcloud.png",
+    "semanticNetworkPng": "network_files/자유전공학부_네트워크.png"
+  },
+  {
+    "id": 72,
+    "name": "동북아국제통상학과",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/동북아국제통상학과.html",
+    "wordcloudPng": "wordcloud_files/동북아국제통상학과_wordcloud.png",
+    "semanticNetworkPng": "network_files/동북아국제통상학과_네트워크.png"
+  },
+  {
+    "id": 73,
+    "name": "법학부",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/법학부.html",
+    "wordcloudPng": "wordcloud_files/법학부_wordcloud.png",
+    "semanticNetworkPng": "network_files/법학부_네트워크.png"
+  },
+  {
+    "id": 74,
+    "name": "교양",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/교양.html",
+    "wordcloudPng": "wordcloud_files/교양_wordcloud.png",
+    "semanticNetworkPng": "network_files/교양_네트워크.png"
+  },
+  {
+    "id": 75,
+    "name": "교직",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/교직.html",
+    "wordcloudPng": "wordcloud_files/교직_wordcloud.png",
+    "semanticNetworkPng": "network_files/교직_네트워크.png"
+  },
+  {
+    "id": 76,
+    "name": "일선",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/일선.html",
+    "wordcloudPng": "wordcloud_files/일선_wordcloud.png",
+    "semanticNetworkPng": "network_files/일선_네트워크.png"
+  },
+  {
+    "id": 77,
+    "name": "광전자공학전공(연계)",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/광전자공학전공(연계).html",
+    "wordcloudPng": "wordcloud_files/광전자공학전공(연계)_wordcloud.png",
+    "semanticNetworkPng": "network_files/광전자공학전공(연계)_네트워크.png"
+  },
+  {
+    "id": 78,
+    "name": "물류학전공(연계)",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/물류학전공(연계).html",
+    "wordcloudPng": "wordcloud_files/물류학전공(연계)_wordcloud.png",
+    "semanticNetworkPng": "network_files/물류학전공(연계)_네트워크.png"
+  },
+  {
+    "id": 79,
+    "name": "창의적디자인연계전공",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/창의적디자인연계전공.html",
+    "wordcloudPng": "wordcloud_files/창의적디자인연계전공_wordcloud.png",
+    "semanticNetworkPng": "network_files/창의적디자인연계전공_네트워크.png"
+  },
+  {
+    "id": 80,
+    "name": "인문문화예술기획연계전공",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/인문문화예술기획연계전공.html",
+    "wordcloudPng": "wordcloud_files/인문문화예술기획연계전공_wordcloud.png",
+    "semanticNetworkPng": "network_files/인문문화예술기획연계전공_네트워크.png"
+  },
+  {
+    "id": 81,
+    "name": "소셜데이터사이언스연계전공",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/소셜데이터사이언스연계전공.html",
+    "wordcloudPng": "wordcloud_files/소셜데이터사이언스연계전공_wordcloud.png",
+    "semanticNetworkPng": "network_files/소셜데이터사이언스연계전공_네트워크.png"
+  },
+  {
+    "id": 82,
+    "name": "미래자동차연계전공",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/미래자동차연계전공.html",
+    "wordcloudPng": "wordcloud_files/미래자동차연계전공_wordcloud.png",
+    "semanticNetworkPng": "network_files/미래자동차연계전공_네트워크.png"
+  },
+  {
+    "id": 83,
+    "name": "미래교육디자인연계전공",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/미래교육디자인연계전공.html",
+    "wordcloudPng": "wordcloud_files/미래교육디자인연계전공_wordcloud.png",
+    "semanticNetworkPng": "network_files/미래교육디자인연계전공_네트워크.png"
+  },
+  {
+    "id": 84,
+    "name": "반도체융합전공",
+    "category": "전체",
+    "sankeyHtml": "sankey_files/반도체융합전공.html",
+    "wordcloudPng": "wordcloud_files/반도체융합전공_wordcloud.png",
+    "semanticNetworkPng": "network_files/반도체융합전공_네트워크.png"
+  }
+]

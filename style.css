@@ -1,0 +1,241 @@
+/* 기본 설정 */
+:root {
+    --bg-color: #F9F7F2;      /* 종이 질감의 크림색 */
+    --text-color: #2C2C2C;    /* 진한 회색 (완전 검정보다 눈이 편함) */
+    --accent-color: #B89E78;  /* 고급스러운 금색/베이지 */
+    --card-bg: #FFFFFF;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+h1, h2, h3, .title, .subtitle {
+    font-family: 'Noto Serif KR', serif; /* 제목은 명조체 */
+}
+
+/* 1. 히어로 섹션 (배너) */
+.hero {
+    position: relative;
+    height: 80vh; /* 화면 높이의 80% */
+    background-image: url('https://www.aumlee.co.kr/aumlee/upload_imgs/202310191507051697695626.png'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.overlay {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* 이미지 어둡게 처리 */
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    padding: 20px;
+    animation: fadeIn 1.5s ease-out;
+}
+
+.title { font-size: 3.5rem; margin: 10px 0; }
+.subtitle { letter-spacing: 3px; font-size: 0.9rem; text-transform: uppercase; }
+.description { font-size: 1.1rem; margin-bottom: 30px; opacity: 0.9; }
+
+.btn-main {
+    padding: 15px 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-family: 'Noto Sans KR';
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn-main:hover { background-color: white; color: black; }
+
+/* 2. 검색 영역 */
+.search-container {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: var(--bg-color);
+}
+.search-box {
+    position: relative;
+    max-width: 500px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+}
+input#searchInput {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background: transparent;
+    font-size: 1.2rem;
+    font-family: 'Noto Serif KR';
+    outline: none;
+    text-align: center;
+}
+
+/* 3. 갤러리 영역 */
+.gallery-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* 개별 학과 섹션 카드 */
+.dept-section {
+    background: var(--card-bg);
+    margin-bottom: 80px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+    border-radius: 2px;
+    opacity: 0; /* 애니메이션용 */
+    transform: translateY(20px);
+    transition: all 0.6s ease-out;
+}
+.dept-section.visible { opacity: 1; transform: translateY(0); }
+
+.dept-header {
+    margin-bottom: 30px;
+    border-left: 4px solid var(--accent-color);
+    padding-left: 20px;
+}
+.dept-header h2 { font-size: 2rem; margin: 0; }
+.dept-header span { color: #888; font-size: 0.9rem; }
+
+
+
+/* 시각화 배치 (왼쪽 Sankey, 오른쪽 컬럼) */
+.viz-layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* 2:1 비율 */
+    gap: 30px;
+    align-items: stretch; /* 높이를 꽉 채우도록 설정 */
+}
+
+/* [NEW] 오른쪽 컬럼 (워드클라우드 + 시맨틱 네트워크) */
+.viz-right-col {
+    display: flex;
+    flex-direction: column; /* 위아래로 쌓기 */
+    gap: 30px; /* 두 이미지 사이 간격 */
+    justify-content: space-between; /* 공간 균등 분배 */
+}
+
+/* 개별 박스 스타일 */
+.viz-box {
+    background: #fff;
+    /* 필요시 테두리나 배경색 추가 */
+}
+
+/* 이미지 공통 스타일 */
+.wc-img { 
+    width: 100%; 
+    height: auto; 
+    border: 1px solid #eee; 
+    display: block;
+    background-color: #fafafa; /* 이미지가 로딩 안될 때 빈칸 표시 */
+}
+
+/* 모바일 대응 수정 */
+@media (max-width: 768px) {
+    .viz-layout { 
+        grid-template-columns: 1fr; /* 모바일에서는 한 줄로 */
+    }
+    .viz-right-col {
+        gap: 20px;
+    }
+}
+
+
+/* 4. 더보기 버튼 & 푸터 */
+.load-more-container { text-align: center; margin-bottom: 80px; }
+.btn-secondary {
+    padding: 15px 50px;
+    background-color: var(--text-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+footer {
+    text-align: center; padding: 40px;
+    background: #ebe9e4; font-size: 0.8rem; color: #666;
+}
+
+/* 애니메이션 키프레임 */
+@keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+
+
+
+/* --- 기존 CSS 아래에 추가 --- */
+
+/* [NEW] 모달(확대창) 기본 스타일 */
+.modal {
+    display: none; /* 평소에는 숨김 */
+    position: fixed; 
+    z-index: 1000; /* 제일 위에 뜨도록 */
+    padding-top: 50px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.85); /* 배경 어둡게 처리 */
+}
+
+/* 확대된 이미지 스타일 */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 900px; /* 너무 커지지 않게 제한 */
+    max-height: 90vh; /* 화면 높이 넘어가지 않게 */
+    object-fit: contain;
+    border-radius: 4px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    animation: zoom 0.3s; /* 줌 애니메이션 효과 */
+}
+
+/* 닫기 버튼 (X) */
+.close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.close:hover, .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 줌 애니메이션 정의 */
+@keyframes zoom {
+    from {transform:scale(0.1)} 
+    to {transform:scale(1)}
+}
+
+/* 썸네일에 마우스 올리면 돋보기 커서로 변경 */
+.viz-box.semantic-box img {
+    cursor: zoom-in;
+    transition: transform 0.2s;
+}
+.viz-box.semantic-box img:hover {
+    transform: scale(1.02); /* 살짝 커지는 효과 */
+    border: 1px solid var(--accent-color);
+}
