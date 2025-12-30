@@ -190,44 +190,6 @@ input#searchInput {
 }
 
 
-/* style.css 맨 아래 (모바일 대응 부분) */
-
-/* 1. Sankey 박스 스크롤 기능 (유지) */
-@media (max-width: 768px) {
-    .viz-box.sankey-box {
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-        padding-bottom: 10px;
-    }
-    
-    .viz-box.sankey-box iframe {
-        width: 100%;
-        min-width: 600px; /* 찌그러짐 방지 */
-        height: 500px;
-    }
-
-    /* 2. [수정됨] 스크롤 안내 문구 (심플한 텍스트 스타일) */
-    .scroll-hint {
-        display: block !important; /* 모바일에서만 보임 */
-        text-align: center;
-        font-size: 0.8rem;   /* 요청하신 크기 */
-        color: #888;         /* 요청하신 회색 */
-        margin-top: 5px;
-    }
-    
-}
-
-/* 움직임 애니메이션 정의 (없으면 추가하세요) */
-@keyframes moveLeftRight {
-    0%, 100% { transform: translateX(-3px); }
-    50% { transform: translateX(3px); }
-}
-
-/* PC에서는 안내 문구 숨김 */
-.scroll-hint {
-    display: none;
-}
-
 
 
 /* 4. 더보기 버튼 & 푸터 */

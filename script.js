@@ -36,9 +36,6 @@ function renderItems(items) {
                 <div class="viz-box sankey-box">
                     <h3>Curriculum Flow</h3>
                     <iframe src="${dept.sankeyHtml}" width="100%" height="600" loading="lazy"></iframe>
-                    <div class="scroll-hint">
-                        <span>↔</span> (상하로 스크롤해보세요)
-                    </div> 
                 </div>
                 
                 <div class="viz-right-col">
