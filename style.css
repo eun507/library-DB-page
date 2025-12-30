@@ -171,7 +171,7 @@ input#searchInput {
 
     .viz-box.sankey-box iframe {
         /* 1. 너비를 더 넓게 잡아서(230%) 그래프 비율을 더 예쁘게(넓적하게) 만듭니다 */
-        width: 230%;       
+        width: 200%;       
         
         /* 2. 높이를 900px까지 늘려서 아래가 잘리는 문제를 해결합니다 */
         height: 1100px;     
@@ -182,7 +182,7 @@ input#searchInput {
         
         /* 4. 확대/축소로 인해 생기는 아래쪽 여백을 적절히 당겨줍니다 */
         /* 높이나 스케일을 바꾸면 이 값도 조절해야 공백이 안 생깁니다 */
-        margin-bottom: -400px; 
+        margin-bottom: -500px; 
         
         border: none;
         display: block; /* 하단 미세 공백 제거 */
