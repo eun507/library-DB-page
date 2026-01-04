@@ -147,6 +147,14 @@ input#searchInput {
     background-color: #fafafa; /* 이미지가 로딩 안될 때 빈칸 표시 */
 }
 
+/* style.css 맨 아래에 추가하세요 */
+
+/* [NEW] 새로 추가된 DB 워드클라우드와 기존 이미지 사이 간격 */
+.db-wc-img {
+    margin-bottom: 20px; /* 두 이미지 사이에 20px 간격 추가 */
+}
+
+
 /* 모바일 대응 수정 */
 @media (max-width: 768px) {
     .viz-layout { 
