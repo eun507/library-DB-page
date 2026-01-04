@@ -21,6 +21,8 @@ fetch('data.json')
     .catch(error => console.error('Error loading data:', error));
 
 // 2. 화면 그리기 함수
+// script.js 의 renderItems 함수 전체를 아래 코드로 교체하세요.
+
 function renderItems(items) {
     items.forEach(dept => {
         const section = document.createElement('div');
@@ -41,6 +43,9 @@ function renderItems(items) {
                 <div class="viz-right-col">
                     <div class="viz-box wc-box">
                         <h3>Keyword Cloud</h3>
+                        
+                        <img src="${dept.dbWordcloudPng}" alt="DB 워드클라우드" class="wc-img db-wc-img">
+                        
                         <img src="${dept.wordcloudPng}" alt="워드클라우드" class="wc-img">
                     </div>
                     
